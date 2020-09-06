@@ -1,0 +1,22 @@
+// variable scss
+@import "variables";
+
+// mixin scss
+@import "mixins";
+@import "extends";
+
+// default scss
+@import "common";
+
+// button scss
+@import "button";
+
+// body scss
+@import "our_depertment";
+@import "menu";
+@import "banner";
+@import "about_us";
+@import "feature_part";
+
+// footer scss
+@import "footer";
