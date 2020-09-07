@@ -14,6 +14,17 @@ class Doctor extends Model
         'name', 'email', 'specialty', 'image'
     ];
 
+    public static function boot()
+    {
+        parent::boot();
+
+        self::deleting(function (Doctor $doctor) {
+            foreach ($doctor->appointments as $appointment) {
+                $appointment->delete();
+            }
+        });
+    }
+
     /**
      * Get the doctor's appointments.
      */

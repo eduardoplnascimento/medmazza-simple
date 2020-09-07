@@ -14,6 +14,17 @@ class Patient extends Model
         'name', 'email', 'blood_type', 'image'
     ];
 
+    public static function boot()
+    {
+        parent::boot();
+
+        self::deleting(function (Patient $patient) {
+            foreach ($patient->appointments as $appointment) {
+                $appointment->delete();
+            }
+        });
+    }
+
     /**
      * Get the patient's appointments.
      */
