@@ -5,15 +5,16 @@ namespace App\Models;
 use App\Models\Doctor;
 use App\Models\Patient;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\SoftDeletes;
+use App\Presenters\AppointmentPresenter;
 use Laracasts\Presenter\PresentableTrait;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Appointment extends Model
 {
     use SoftDeletes;
     use PresentableTrait;
 
-    protected $presenter = 'AppointmentPresenter';
+    protected $presenter = AppointmentPresenter::class;
 
     protected $fillable = [
         'patient_id', 'doctor_id', 'start_date', 'end_date', 'status', 'color'

@@ -12,7 +12,7 @@
         "fideloper/proxy": "^4.0",
         "laravel/framework": "^6.18.35",
         "laravel/tinker": "^2.0",
-        "laracasts/presenter": "0.1.*"
+        "laracasts/presenter": "*"
     },
     "require-dev": {
         "facade/ignition": "^1.4",

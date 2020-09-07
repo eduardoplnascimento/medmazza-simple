@@ -6,9 +6,9 @@ use Laracasts\Presenter\Presenter;
 
 class AppointmentPresenter extends Presenter
 {
-    public function status()
+    public function status(): string
     {
-        if ($this->status === 'confirmed') {
+        if ($this->entity->status === 'confirmed') {
             return 'Confirmado';
         }
         return 'Cancelado';
