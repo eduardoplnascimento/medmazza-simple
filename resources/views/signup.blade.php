@@ -60,7 +60,7 @@
 
     <!-- Required Js -->
     <script src="{{ asset('js/vendor-all.min.js') }}"></script>
-    <script src="{{ asset('plugins/bootstrap/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('bootstrap.min.js') }}"></script>
     <script src="{{ asset('js/pcoded.min.js') }}"></script>
     <script src="{{ asset('js/sweetalert2.all.min.js') }}"></script>
     <script>
