@@ -18,7 +18,7 @@
                                     <div class="card shadow-sm">
                                         <div class="card-block customer-visitor">
                                             <h2 class="text-right mt-2 f-w-300">{{ $appointments->count() }}</h2>
-                                            <span class="text-right d-block h5">Pendentes</span>
+                                            <span class="text-right d-block h5">Próximos</span>
                                             <i class="material-icons text-c-blue">today</i>
                                         </div>
                                     </div>
