@@ -108,7 +108,7 @@ Como adminitrador dentro da plataforma, é possível:
 - Criar e remover administradores na aba **Administradores**;
 - Alterar as informações do perfil na aba **Configurações**.
 
-![](https://i.imgur.com/QN4wZTK.png)
+![](https://i.imgur.com/Q12ssgz.png)
 
 ### API
 
