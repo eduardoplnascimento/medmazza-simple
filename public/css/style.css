@@ -1848,7 +1848,7 @@ p.text-muted {
   border: none;
   position: absolute;
   top: 0;
-  right: 15px;
+  right: 0;
 }
 .pcoded-header .dropdown .dropdown-menu {
   position: absolute;
