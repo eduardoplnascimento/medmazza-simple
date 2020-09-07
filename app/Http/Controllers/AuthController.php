@@ -41,35 +41,6 @@ class AuthController extends Controller
         return response()->json(['success' => false]);
     }
 
-    public function signup(Request $request)
-    {
-        request()->validate([
-            'name'     => 'required',
-            'email'    => 'required|email|unique:users',
-            'password' => 'required|confirmed|min:6',
-        ]);
-
-        $data = $request->all();
-
-        $user = User::create([
-            'name'      => $data['name'],
-            'email'     => $data['email'],
-            'password'  => Hash::make($data['password'])
-        ]);
-
-        Patient::create([
-            'user_id' => $user->id
-        ]);
-
-        $credentials = $request->only('email', 'password');
-        if (Auth::attempt($credentials)) {
-            $user = auth()->user();
-            return redirect('/dashboard')->withSuccess('Usuário criado com sucesso!');
-        }
-
-        return redirect()->back()->withError('Erro ao criar o usuário!');
-    }
-
     public function logout()
     {
         Session::flush();
