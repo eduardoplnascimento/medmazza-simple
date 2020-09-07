@@ -3,9 +3,7 @@
     <div class="m-header">
         <a class="mobile-menu" id="mobile-collapse1" href="javascript:"><span></span></a>
         <a href="{{ route('dashboard') }}" class="b-brand">
-            <div class="b-bg">
-                <i class="feather icon-trending-up"></i>
-            </div>
+            <img class="if-logo-img" src="{{ asset('img/landing/logo-white.png') }}">
             <span class="b-title">MedMazza</span>
         </a>
     </div>

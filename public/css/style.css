@@ -2851,7 +2851,7 @@ p.text-muted {
 /* ==========================    Rsponsive Menu  start   ====================== */
 @media only screen and (max-width: 991px) {
   .pcoded-header {
-    background: #3f4d67;
+    background: #04a9f5;
     color: #fff;
   }
   .pcoded-header .input-group-text,
