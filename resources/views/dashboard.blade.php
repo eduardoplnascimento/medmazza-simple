@@ -59,7 +59,7 @@
                                                         <th>Médico</th>
                                                         <th>Início</th>
                                                         <th>Término</th>
-                                                        <th>Confirmar</th>
+                                                        <th>Cancelar</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
@@ -70,9 +70,6 @@
                                                             <td>{{ $appointment->start_date }}</td>
                                                             <td>{{ $appointment->end_date }}</td>
                                                             <td>
-                                                                <a href="{{ route('appointments.confirm', $appointment->id) }}" class="btn btn-icon btn-outline-success">
-                                                                    <i class="feather icon-check-circle"></i>
-                                                                </a>
                                                                 <a href="{{ route('appointments.cancel', $appointment->id) }}" class="btn btn-icon btn-outline-danger">
                                                                     <i class="feather icon-slash"></i>
                                                                 </a>

@@ -46,7 +46,7 @@
                                                     <input type="file" name="image"/>
                                                 </div>
                                                 <input id='doctor-name' class='form-control' type='text' name='name' placeholder="Nome" required>
-                                                <input id='doctor-email' class='form-control mt-3' type='text' name='email' placeholder="Email" required>
+                                                <input id='doctor-email' class='form-control mt-3' type='text' name='email' placeholder="Email">
                                                 <input class='form-control mt-3' type='text' name='specialty' placeholder="Especialização">
                                                 <br>
                                                 <button class='btn btn-outline-primary' type='submit'>Enviar</button>
