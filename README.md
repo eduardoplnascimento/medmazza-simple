@@ -1,7 +1,7 @@
 # MedMazza
 > Agendamento de consultas médicas online.
 
-Faça com que a expriência do seu paciente seja ainda mais agradável com uma plataforma de gerênciamento de agendamentos de consultas. Toda a jornada de agendar uma consulta em apenas alguns cliques. Demo: https://simple.medmazza.ml/
+Faça com que a expriência do seu paciente seja ainda mais agradável com uma plataforma de gerênciamento de agendamentos de consultas. Toda a jornada de agendar uma consulta em apenas alguns cliques. Demo: https://simple.medmazza.ml/ (usuário: admin@teste.com / senha: 123456)
 
 ![](https://i.imgur.com/wthtACc.png)
 
