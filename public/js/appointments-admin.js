@@ -74,7 +74,7 @@ async function getPatient(date, doctorId, doctorName) {
                 <tr>
                     <th>Imagem</th>
                     <th>Nome</th>
-                    <th>Editar</th>
+                    <th>Agendar</th>
                 </tr>
             </thead>
             <tbody>
@@ -92,8 +92,8 @@ async function getPatient(date, doctorId, doctorName) {
                 </td>
                 <td><h5>${patient.name}</h5></td>
                 <td>
-                    <button class="btn btn-icon btn-outline-primary" onclick="setAppointment('${date}', ${doctorId}, '${doctorName}', ${patient.id}, '${patient.name}')">
-                        <i class="feather icon-play"></i>
+                    <button class="btn btn-icon btn-outline-success" onclick="setAppointment('${date}', ${doctorId}, '${doctorName}', ${patient.id}, '${patient.name}')">
+                        <i class="feather icon-check-circle"></i>
                     </button>
                 </td>
             </tr>
