@@ -49,7 +49,7 @@
                                 <div class="col-sm-12">
                                     <div class="card User-Activity">
                                         <div class="card-header">
-                                            <h5>Agendamentos Pendentes</h5>
+                                            <h5>Próximos Agendamentos</h5>
                                         </div>
                                         <div class="card-block text-center">
                                             <table id="tb-appointments" class="display" style="width:100%">
