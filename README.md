@@ -3,7 +3,7 @@
 
 Faça com que a expriência do seu paciente seja ainda mais agradável com uma plataforma de gerênciamento de agendamentos de consultas. Toda a jornada de agendar uma consulta em apenas alguns cliques. Demo: https://simple.medmazza.ml/
 
-![](https://i.imgur.com/KbHcORs.png)
+![](https://i.imgur.com/wthtACc.png)
 
 ## Começando
 
@@ -101,14 +101,14 @@ php artisan serve
 
 Como adminitrador dentro da plataforma, é possível:
 
-- Confirmar agendamentos solicitados por pacientes na aba **Dashboard**;
+- Cancelar agendamentos na aba **Dashboard**;
 - Agendar consultas para todos os pacientes na aba **Agendamentos**;
 - Criar, editar e remover médicos na aba **Médicos**;
 - Criar, editar e remover pacientes na aba **Pacientes**;
 - Criar e remover administradores na aba **Administradores**;
 - Alterar as informações do perfil na aba **Configurações**.
 
-![](https://i.imgur.com/XYu78CF.png)
+![](https://i.imgur.com/QN4wZTK.png)
 
 ### API
 
