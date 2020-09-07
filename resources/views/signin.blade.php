@@ -46,8 +46,6 @@
                                         </div>
                                         <button type="submit" class="btn btn-primary shadow-2 mb-4">Login</button>
                                     </form>
-                                    <p class="mb-2 text-muted">Não tem conta? <a
-                                            href="{{ route('register') }}">Registre-se</a></p>
                                 </div>
                             </div>
                         </div>

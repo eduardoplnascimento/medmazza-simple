@@ -50,7 +50,6 @@
                                 </ul>
                             </div>
                             <a class="btn_2 d-none d-lg-block" href="{{ route('login') }}">Entrar</a>
-                            <a class="btn d-none d-lg-block" href="{{ route('register') }}">Registrar</a>
                         </nav>
                     </div>
                 </div>
@@ -69,7 +68,7 @@
                                 <h1>Melhores Médicos</h1>
                                 <p>Aqui na MedMazza você encontra os melhores médicos da região,
                                     com um atendimento diferenciado e um agendamento muito fácil.</p>
-                                <a href="{{ route('login') }}" class="btn_2">Agende sua consulta</a>
+                                <a href="{{ route('login') }}" class="btn_2">Agendar consulta</a>
                             </div>
                         </div>
                     </div>
