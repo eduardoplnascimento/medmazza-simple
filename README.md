@@ -91,9 +91,9 @@ php artisan serve
 
 - Acessando a URL do projeto, você será direcionado para a *landing page*, onde existem algumas informações sobre o consultório médico e a plataforma de agendamento.
 
-![](https://i.imgur.com/H1RqkLv.png)
+![](https://i.imgur.com/5azYEUV.png)
 
-- A partir dessa página é possível fazer o *login* ou cadastrar-se. Caso queira acessar a plataforma como administrador e o comando de seed foi rodado, é possível com o email **admin@teste.com** e senha **123456**.
+- A partir dessa página é possível fazer o *login*. Caso queira acessar a plataforma como administrador e o comando de seed foi rodado, é possível com o email **admin@teste.com** e senha **123456**.
 
 ![](https://i.imgur.com/ltjjyaC.png)
 
