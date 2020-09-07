@@ -46,7 +46,7 @@
                                                     <input type="file" name="image"/>
                                                 </div>
                                                 <input id='patient-name' class='form-control' type='text' name='name' placeholder="Nome" required>
-                                                <input id='patient-email' class='form-control mt-3' type='text' name='email' placeholder="Email" required>
+                                                <input id='patient-email' class='form-control mt-3' type='text' name='email' placeholder="Email">
                                                 <div class="form-group mt-2">
                                                     <label for="blood-type">Tipo Sanguíneo</label>
                                                     <select class="form-control" id="blood-type" name="blood">

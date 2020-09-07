@@ -18,8 +18,8 @@ class StoreServiceParams extends BaseServiceParams
         int $doctor_id,
         string $start_date,
         string $end_date,
-        string $status = 'pending',
-        string $color = 'yellow'
+        string $status = 'confirmed',
+        string $color = 'green'
     ) {
         parent::__construct();
     }
