@@ -127,13 +127,9 @@ Como adminitrador dentro da plataforma, é possível:
 
 Grande parte da interface da plataforma é feita com Bootstrap, principalmente *grids* e tabelas. A *landing page* também utiliza Bootstrap, porém a maioria do CSS foi feito utilizando SASS.
 
-- [x] Gerenciamento de dependências com webpack.
-
-O Laravel fornece um webpack muito simples e fácil de ser utilizado, com isso, para adicionar pacotes de desenvolvimento é possível utilizando apenas o NPM.
-
 - [x] CSS utilizando o pré processador SASS.
 
-A estilização do site foi feita com o pré processador SASS, caso seja necessário alterar algum estilo nos arquivos SCSS, utilize o comando para compilar:
+A estilização do site foi feita com o pré processador SASS utilizando o webpack do Laravel, caso seja necessário alterar algum estilo nos arquivos SCSS, utilize o comando para compilar:
 
 ```
 npm run dev
